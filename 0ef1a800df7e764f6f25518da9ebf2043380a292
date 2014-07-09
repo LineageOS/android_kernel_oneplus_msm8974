@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_693507d9",
+        "filename": "drivers/platform/msm/qpnp-vibrator.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-07-09T11:58:02Z",
+      "side": 1,
+      "message": "I\u0027m assuming you get -EINVAL if you don\u0027t specify a value for the device tree entry?",
+      "revId": "0ef1a800df7e764f6f25518da9ebf2043380a292",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
