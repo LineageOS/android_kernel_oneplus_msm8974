@@ -16,6 +16,24 @@
       "revId": "0ef1a800df7e764f6f25518da9ebf2043380a292",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_e9575700",
+        "filename": "drivers/platform/msm/qpnp-vibrator.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2014-07-09T12:13:36Z",
+      "side": 1,
+      "message": "yep.  don\u0027t want to break compatibility with existing device tree definitinitions.",
+      "parentUuid": "ba0121b8_693507d9",
+      "revId": "0ef1a800df7e764f6f25518da9ebf2043380a292",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
