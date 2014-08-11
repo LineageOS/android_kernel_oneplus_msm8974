@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a061dce_c63a43cd",
+        "filename": "sound/soc/codecs/wcd9xxx-mbhc.c",
+        "patchSetId": 7
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-11T06:35:28Z",
+      "side": 1,
+      "message": "Isn\u0027t this dangling code here?",
+      "revId": "344be8b70022182e3472265dc889c204b9534857",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
