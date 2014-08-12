@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a061dce_a13e19b6",
+        "filename": "arch/arm/boot/dts/msm8974-oppo/msm8974-oppo-regulator.dtsi",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-12T09:33:48Z",
+      "side": 1,
+      "message": "This should already be set for a0001.",
+      "revId": "6dd096160a6ba278b854a021030d9f52b8604ace",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
