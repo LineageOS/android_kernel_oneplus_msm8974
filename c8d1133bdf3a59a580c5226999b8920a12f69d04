@@ -1,0 +1,191 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_333effb8",
+        "filename": "arch/arm/mach-msm/Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 426,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-21T09:50:38Z",
+      "side": 1,
+      "message": "Would prefer you didn\u0027t put this in arch/arm/mach-msm since this isn\u0027t an msm driver. Might be better to place in arch/arm/mach-msm/oppo instead.",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_7348775c",
+        "filename": "arch/arm/mach-msm/kcal_ctrl.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-21T09:50:38Z",
+      "side": 1,
+      "message": "You\u0027ll want to do stricter checking in your *_store functions. Also see copy_from_user.",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_d39a2bc5",
+        "filename": "arch/arm/mach-msm/kcal_ctrl.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-21T09:50:38Z",
+      "side": 1,
+      "message": "Nothing for removal?",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_f3a927e1",
+        "filename": "arch/arm/mach-msm/oppo/board-8974-oppo.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-21T09:50:38Z",
+      "side": 1,
+      "message": "Why not place this in the header file instead?",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_9390b397",
+        "filename": "arch/arm/mach-msm/oppo/board-8974-oppo.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-21T09:50:38Z",
+      "side": 1,
+      "message": "eeew, global variables",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_33939fa5",
+        "filename": "arch/arm/mach-msm/oppo/board-8974-oppo.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-21T09:50:38Z",
+      "side": 1,
+      "message": "Why not make g_kcal_r/g/b function parameters to avoid having an extern?",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_b39fafb3",
+        "filename": "arch/arm/mach-msm/oppo/board-8974-oppo.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-21T09:50:38Z",
+      "side": 1,
+      "message": "kcal_platform_device",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_93b9d331",
+        "filename": "drivers/video/msm/mdss/mdss_mdp_pp.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1881,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-21T09:50:38Z",
+      "side": 1,
+      "message": "static void mdss_mdp_pp_argc(void)",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_f3800749",
+        "filename": "drivers/video/msm/mdss/mdss_mdp_pp.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1920,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-21T09:50:38Z",
+      "side": 1,
+      "message": "static int mdss_mdp_pp_argc",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_13a5c303",
+        "filename": "drivers/video/msm/mdss/mdss_mdp_pp.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1956,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-21T09:50:38Z",
+      "side": 1,
+      "message": "Exceeds line length.",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_53961b95",
+        "filename": "drivers/video/msm/mdss/mdss_mdp_pp.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1958,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-08-21T09:50:38Z",
+      "side": 1,
+      "message": "Why not make g_kcal_r/g/b function parameters to avoid having an extern?",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
