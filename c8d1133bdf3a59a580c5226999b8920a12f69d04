@@ -53,6 +53,23 @@
     },
     {
       "key": {
+        "uuid": "7a1b2928_f3f767f3",
+        "filename": "arch/arm/mach-msm/oppo/board-8974-oppo.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2014-08-21T10:37:27Z",
+      "side": 1,
+      "message": "Please don\u0027t add shit to this file. Board files need to grow smaller, not larger.",
+      "revId": "c8d1133bdf3a59a580c5226999b8920a12f69d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a1b2928_f3a927e1",
         "filename": "arch/arm/mach-msm/oppo/board-8974-oppo.c",
         "patchSetId": 1
