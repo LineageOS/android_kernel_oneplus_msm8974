@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_60e9a21a",
+        "filename": "drivers/video/msm/mdss/mdss_fb.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-09-03T15:38:07Z",
+      "side": 0,
+      "message": "I\u0027m assuming this used to be #define DEBUG?",
+      "revId": "bfba0960c5e444c463ed366d5c3a40d86e1f1b3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
