@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_c9238104",
+        "filename": "sound/soc/codecs/wcd9xxx-mbhc.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1474,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-09-04T12:15:44Z",
+      "side": 0,
+      "message": "Weird newline deletion?",
+      "revId": "ee31375a337533372e0cf9a85bd2f5bb43a00d40",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
