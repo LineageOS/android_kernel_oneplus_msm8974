@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_3c9d0766",
+        "filename": "drivers/power/qpnp-charger.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 10346
+      },
+      "writtenOn": "2014-09-13T09:26:00Z",
+      "side": 1,
+      "message": "I suggest to bump this time to 12hr. Since some wall chargers combined with low quality charging cable won\u0027t supply more than 500mA.",
+      "revId": "a65c0f1a9ac3647921a680f21a8b64ea5e466536",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
