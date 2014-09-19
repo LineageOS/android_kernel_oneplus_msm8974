@@ -16,6 +16,24 @@
       "revId": "6afd836e25f50626de36edd0874619b36ea50c30",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_59944a36",
+        "filename": "drivers/input/touchscreen/synaptics_dsx_i2c.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 2966,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2014-09-19T14:57:48Z",
+      "side": 1,
+      "message": "I see now why, but I\u0027m not sure this is necessary.",
+      "parentUuid": "7a1b2928_19749233",
+      "revId": "6afd836e25f50626de36edd0874619b36ea50c30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
