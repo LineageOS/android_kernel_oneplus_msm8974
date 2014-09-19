@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_19749233",
+        "filename": "drivers/input/touchscreen/synaptics_dsx_i2c.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 2966,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2014-09-19T14:55:51Z",
+      "side": 1,
+      "message": "There\u0027s a heck of a lot going on in this irq now.  Why not just save off the timestamp here and leave the workqueue to do it\u0027s business \"later\"?",
+      "revId": "6afd836e25f50626de36edd0874619b36ea50c30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
