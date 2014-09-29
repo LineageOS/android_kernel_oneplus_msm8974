@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_b345b2b4",
+        "filename": "arch/arm/boot/dts/msm8974-oppo/msm8974-oppo-panel.dtsi",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 401
+      },
+      "writtenOn": "2014-09-29T07:43:00Z",
+      "side": 1,
+      "message": "D:",
+      "revId": "d7986401f961226798e487a8b80ba0d261615ba2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
