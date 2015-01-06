@@ -52,6 +52,24 @@
       "revId": "e1d4b28e3b0bd8cfe0ee5f409bab4fec6a4dc264",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_1d6aca80",
+        "filename": "drivers/media/platform/msm/camera_oppo_v2/sensor/actuator/msm_actuator.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-01-06T06:29:46Z",
+      "side": 1,
+      "message": "Looks like copy/paste error to me too, check lines 361-365",
+      "parentUuid": "7aa08908_7dd02e54",
+      "revId": "e1d4b28e3b0bd8cfe0ee5f409bab4fec6a4dc264",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
