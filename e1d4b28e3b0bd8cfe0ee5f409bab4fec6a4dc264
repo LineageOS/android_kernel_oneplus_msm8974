@@ -34,6 +34,24 @@
       "revId": "e1d4b28e3b0bd8cfe0ee5f409bab4fec6a4dc264",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_7dd02e54",
+        "filename": "drivers/media/platform/msm/camera_oppo_v2/sensor/actuator/msm_actuator.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 10984
+      },
+      "writtenOn": "2015-01-06T05:44:46Z",
+      "side": 1,
+      "message": "I mean there is a syntax error here: After closing the if clause we have the second half of a comparison that should be in (another) if. \nSince this is the same clause (both comparison and contents) that we can see added around line 341, I\u0027d say this is a copy/paste gone wrong, and what\u0027s seen here after } (and the next four added lines) should probably be removed.",
+      "parentUuid": "7aa08908_fdaffee0",
+      "revId": "e1d4b28e3b0bd8cfe0ee5f409bab4fec6a4dc264",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
