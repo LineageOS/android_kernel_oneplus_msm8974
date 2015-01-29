@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad55976_3220c29b",
+        "filename": "arch/arm/boot/dts/msm8974-oppo/dsi-panel-jdi-1440p-video.dtsi",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-01-29T19:08:31Z",
+      "side": 1,
+      "message": "You probably don\u0027t need to take liuyan\u0027s comments as well ;)",
+      "revId": "089184148c89459e7bc13018a9d3ca3d491e8569",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
