@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_902095f9",
+        "filename": "drivers/video/msm/mdss/mdss_fb.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 463,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-03-04T10:57:54Z",
+      "side": 1,
+      "message": "should be a tab here instead of spaces",
+      "revId": "938b14995fbd75ac3dd59f1d1d643ce7633302ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
