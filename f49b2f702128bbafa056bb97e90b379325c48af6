@@ -16,6 +16,24 @@
       "revId": "f49b2f702128bbafa056bb97e90b379325c48af6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac665da_0353a6e2",
+        "filename": "arch/arm/boot/dts/msm8974-oppo/msm8974-x9076-mdss.dtsi",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-04-03T12:49:10Z",
+      "side": 0,
+      "message": "platform-supply-entry* do nothing since the commit mentioned in the commit message, plus this part exists in main msm8974-mdss.dtsi now if I understood right by looking at the commit history. My device still boots/works with this",
+      "parentUuid": "5ac665da_83467621",
+      "revId": "f49b2f702128bbafa056bb97e90b379325c48af6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
