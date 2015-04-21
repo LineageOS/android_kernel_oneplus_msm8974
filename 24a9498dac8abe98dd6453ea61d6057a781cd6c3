@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa7ab95a_98fc6240",
+        "filename": "drivers/power/pic16F1503_fastcg.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-04-21T07:39:05Z",
+      "side": 1,
+      "message": "Might as well nuke the whitespace while here",
+      "revId": "24a9498dac8abe98dd6453ea61d6057a781cd6c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
