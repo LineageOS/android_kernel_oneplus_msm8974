@@ -239,3 +239,9 @@ config MSM_CAMERA_LED_CCI
 	---help---
 	  led flash driver for third party driver IC
 
+config MSM_CAMERA_ONEPLUS
+    bool "OnePlus camera changes"
+    depends on MSMB_CAMERA
+    ---help---
+        enable stuff previously kept under VENDOR_EDIT by OnePlus
+
