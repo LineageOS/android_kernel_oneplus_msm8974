@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a89bdaa_cd81c84f",
+        "filename": "drivers/staging/prima/Kbuild",
+        "patchSetId": 1
+      },
+      "lineNbr": 553,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2015-05-13T07:32:40Z",
+      "side": 1,
+      "message": "Leave this out as we don\u0027t support CH144 NV.",
+      "revId": "58cb3965aaebca3e46de2446bbea47ee2f4c53bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
