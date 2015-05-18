@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a89bdaa_06f38a74",
+        "filename": "arch/arm/mach-msm/oppo/board-8974-oppo-gpiomux.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1674,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2015-05-18T05:58:03Z",
+      "side": 1,
+      "message": "Who calls this?",
+      "revId": "232165b4c7998d2cba0a3dd78dec7c33788915da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
