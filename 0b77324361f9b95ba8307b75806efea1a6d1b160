@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_3e4b3e2d",
+        "filename": "fs/ext4/Makefile",
+        "patchSetId": 8
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-02T08:49:38Z",
+      "side": 1,
+      "message": "I\u0027m not seeing where this is used.",
+      "revId": "0b77324361f9b95ba8307b75806efea1a6d1b160",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
