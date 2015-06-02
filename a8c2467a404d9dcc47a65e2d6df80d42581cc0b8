@@ -16,6 +16,24 @@
       "revId": "a8c2467a404d9dcc47a65e2d6df80d42581cc0b8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_3e6dfe32",
+        "filename": "fs/xcomp.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2015-06-02T11:36:12Z",
+      "side": 1,
+      "message": "The intention is to provide a knob for user space to disable xcomp. The use case is backup in recovery. So I\u0027m not sure if a module parameter makes sense.",
+      "parentUuid": "7a8ec9b2_ded7ba21",
+      "revId": "a8c2467a404d9dcc47a65e2d6df80d42581cc0b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
