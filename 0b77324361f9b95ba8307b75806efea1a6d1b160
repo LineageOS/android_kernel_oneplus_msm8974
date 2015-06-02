@@ -16,6 +16,24 @@
       "revId": "0b77324361f9b95ba8307b75806efea1a6d1b160",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_7e55c6c4",
+        "filename": "fs/ext4/Makefile",
+        "patchSetId": 8
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2015-06-02T09:04:53Z",
+      "side": 1,
+      "message": "Here: http://review.cyanogenmod.org/#/c/99649/1/include/linux/fs.h\n\nIt makes i_size_read() return i_compressed_size, which is the \"real\" size.  Everything else in the system needs the uncompressed size, but the filesystem implementation needs the compressed size.",
+      "parentUuid": "7a8ec9b2_3e4b3e2d",
+      "revId": "0b77324361f9b95ba8307b75806efea1a6d1b160",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
