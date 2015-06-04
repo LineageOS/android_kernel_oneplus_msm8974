@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_8a4ec8bf",
+        "filename": "drivers/input/touchscreen/synaptics_dsx_fw_update.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1571,
+      "author": {
+        "id": 4820
+      },
+      "writtenOn": "2015-06-04T14:20:11Z",
+      "side": 1,
+      "message": "Shouldn\u0027t we be loading Syna_Firmware_Data_tpk_jdi not Syna_Firmware_Data_tpk on bacon for JDI panels?",
+      "range": {
+        "startLine": 1571,
+        "startChar": 34,
+        "endLine": 1571,
+        "endChar": 56
+      },
+      "revId": "c510481c43e09d2b827b0f501891e48e2cea3b36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
