@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da36d5c6_b2bea6d2",
+        "filename": "arch/arm/boot/dts/msm8974-oppo/dsi-panel-truly-1080p-cmd.dtsi",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-19T09:01:57Z",
+      "side": 1,
+      "message": "Try without 55 03. That sets CABC mode to 3 (high, I think).",
+      "revId": "5178948aa6dc2f5f83617da537060b298c6d7ec9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da36d5c6_d2b31a09",
+        "filename": "arch/arm/boot/dts/msm8974-oppo/dsi-panel-truly-1080p-cmd.dtsi",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-06-19T09:01:57Z",
+      "side": 1,
+      "message": "You shouldn\u0027t need 29 00 (panel on), since the CABC commands below will issue this.",
+      "revId": "5178948aa6dc2f5f83617da537060b298c6d7ec9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
