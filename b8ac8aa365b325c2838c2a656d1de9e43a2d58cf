@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "ff0f0b1f_7a4c1976",
+        "filename": "drivers/video/msm/mdss/mdss_livedisplay.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-12T08:55:06Z",
+      "side": 1,
+      "message": "Seems sensible then.",
+      "parentUuid": "1f013ff3_248798da",
+      "range": {
+        "startLine": 56,
+        "startChar": 35,
+        "endLine": 56,
+        "endChar": 46
+      },
+      "revId": "b8ac8aa365b325c2838c2a656d1de9e43a2d58cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1f013ff3_2412f8b2",
         "filename": "drivers/video/msm/mdss/mdss_panel.h",
         "patchSetId": 3
@@ -131,6 +155,30 @@
       "side": 1,
       "message": "Try it :)  There are some really fucked up ordering issues and you\u0027ll have an extremely bad time.",
       "parentUuid": "1f013ff3_2412f8b2",
+      "range": {
+        "startLine": 313,
+        "startChar": 7,
+        "endLine": 313,
+        "endChar": 27
+      },
+      "revId": "b8ac8aa365b325c2838c2a656d1de9e43a2d58cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff0f0b1f_9a312df0",
+        "filename": "drivers/video/msm/mdss/mdss_panel.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 313,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-12T08:55:06Z",
+      "side": 1,
+      "message": "That\u0027s kind of what I was afraid of :/",
+      "parentUuid": "1f013ff3_e4689022",
       "range": {
         "startLine": 313,
         "startChar": 7,
