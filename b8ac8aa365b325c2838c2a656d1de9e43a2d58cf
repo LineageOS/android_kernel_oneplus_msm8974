@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1f013ff3_046c9c34",
+        "filename": "drivers/video/msm/mdss/mdss_fb.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 572,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2015-07-12T08:12:36Z",
+      "side": 1,
+      "message": "The function called here will show it\u0027s own error, and my goal was to reduce LOC inside files which aren\u0027t ours.",
+      "parentUuid": "1f013ff3_440d048f",
+      "range": {
+        "startLine": 572,
+        "startChar": 1,
+        "endLine": 572,
+        "endChar": 7
+      },
+      "revId": "b8ac8aa365b325c2838c2a656d1de9e43a2d58cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1f013ff3_a41de8be",
         "filename": "drivers/video/msm/mdss/mdss_livedisplay.c",
         "patchSetId": 3
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "1f013ff3_248798da",
+        "filename": "drivers/video/msm/mdss/mdss_livedisplay.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2015-07-12T08:12:36Z",
+      "side": 1,
+      "message": "Yes. SRE on every display panel so far is actually part of the CABC command code, so you can\u0027t have both CABC and SRE enabled together. Doesn\u0027t really make sense anyway, since SRE\u0027s goal is to melt your face off.  We make SRE a boolean in sysfs, but CABC has multiple levels. If you turn on SRE, it\u0027s going to override everything.",
+      "parentUuid": "1f013ff3_a41de8be",
+      "range": {
+        "startLine": 56,
+        "startChar": 35,
+        "endLine": 56,
+        "endChar": 46
+      },
+      "revId": "b8ac8aa365b325c2838c2a656d1de9e43a2d58cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1f013ff3_2412f8b2",
         "filename": "drivers/video/msm/mdss/mdss_panel.h",
         "patchSetId": 3
@@ -59,6 +107,30 @@
       "writtenOn": "2015-07-12T08:05:50Z",
       "side": 1,
       "message": "Does it make sense to include the header instead?",
+      "range": {
+        "startLine": 313,
+        "startChar": 7,
+        "endLine": 313,
+        "endChar": 27
+      },
+      "revId": "b8ac8aa365b325c2838c2a656d1de9e43a2d58cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f013ff3_e4689022",
+        "filename": "drivers/video/msm/mdss/mdss_panel.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 313,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2015-07-12T08:12:36Z",
+      "side": 1,
+      "message": "Try it :)  There are some really fucked up ordering issues and you\u0027ll have an extremely bad time.",
+      "parentUuid": "1f013ff3_2412f8b2",
       "range": {
         "startLine": 313,
         "startChar": 7,
