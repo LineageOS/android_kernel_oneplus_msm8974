@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f013ff3_440d048f",
+        "filename": "drivers/video/msm/mdss/mdss_fb.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 572,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-12T08:05:50Z",
+      "side": 1,
+      "message": "Why not just rc \u003d mdss_livedisplay_create_sysfs(mfd); ? That way you keep the error message in cases of failure.",
+      "range": {
+        "startLine": 572,
+        "startChar": 1,
+        "endLine": 572,
+        "endChar": 7
+      },
+      "revId": "b8ac8aa365b325c2838c2a656d1de9e43a2d58cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f013ff3_a41de8be",
+        "filename": "drivers/video/msm/mdss/mdss_livedisplay.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-12T08:05:50Z",
+      "side": 1,
+      "message": "SRE is tied to CABC, but takes precedence over CABC?",
+      "range": {
+        "startLine": 56,
+        "startChar": 35,
+        "endLine": 56,
+        "endChar": 46
+      },
+      "revId": "b8ac8aa365b325c2838c2a656d1de9e43a2d58cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f013ff3_2412f8b2",
+        "filename": "drivers/video/msm/mdss/mdss_panel.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 313,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-12T08:05:50Z",
+      "side": 1,
+      "message": "Does it make sense to include the header instead?",
+      "range": {
+        "startLine": 313,
+        "startChar": 7,
+        "endLine": 313,
+        "endChar": 27
+      },
+      "revId": "b8ac8aa365b325c2838c2a656d1de9e43a2d58cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
