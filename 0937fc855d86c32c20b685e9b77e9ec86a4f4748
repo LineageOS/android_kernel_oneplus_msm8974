@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f013ff3_e479b02f",
+        "filename": "drivers/video/msm/mdss/mdss_livedisplay.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2015-07-12T03:10:05Z",
+      "side": 1,
+      "message": "Agh, whitespace!",
+      "revId": "0937fc855d86c32c20b685e9b77e9ec86a4f4748",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
