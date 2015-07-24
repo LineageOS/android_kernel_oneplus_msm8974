@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df140735_02948b8a",
+        "filename": "arch/arm/boot/dts/msm8974-oppo/dsi-panel-jdi-1440p-video.dtsi",
+        "patchSetId": 4
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-07-24T17:25:17Z",
+      "side": 0,
+      "message": "Looks like in video mode panels 05 01 00 00 10 00 02 29 00 is first and not last like cmd panels",
+      "range": {
+        "startLine": 117,
+        "startChar": 3,
+        "endLine": 117,
+        "endChar": 29
+      },
+      "revId": "9e96095b259409d51935191382cdeb1889e52fe3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "df140735_e2907798",
+        "filename": "arch/arm/boot/dts/msm8974-oppo/dsi-panel-jdi-1440p-video.dtsi",
+        "patchSetId": 4
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-07-24T17:25:17Z",
+      "side": 0,
+      "message": "CABC values seem to be different than cmd panels too. I see differences both in jdi \u0026 rsp\n\nAccording to this https://github.com/TeamEOS/kernel_oppo_exp/commit/bde0b5816f582fc4147414c8b1baca337b28c01a SRE values are different too",
+      "range": {
+        "startLine": 121,
+        "startChar": 27,
+        "endLine": 121,
+        "endChar": 29
+      },
+      "revId": "9e96095b259409d51935191382cdeb1889e52fe3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
