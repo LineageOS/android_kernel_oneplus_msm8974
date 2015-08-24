@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_8ebb2fe4",
+        "filename": "sound/soc/msm/qdsp6v2/msm-compress-q6-v2.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2015-08-24T23:08:38Z",
+      "side": 1,
+      "message": "You\u0027re adding 12k/24k here.  That breaks bisectability across this patch as the new sample rates OR a bug in the patch could cause issues.  It\u0027s a small enough patch that I\u0027d not be too concerned on that point though.",
+      "revId": "b4f98eab986326b5f87335e909b5abc158623f52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_0ee6ff17",
+        "filename": "sound/soc/msm/qdsp6v2/msm-compress-q6-v2.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1011,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2015-08-24T23:08:38Z",
+      "side": 1,
+      "message": "ARRAY_SIZE(supported_sample_rates)",
+      "range": {
+        "startLine": 1011,
+        "startChar": 20,
+        "endLine": 1011,
+        "endChar": 42
+      },
+      "revId": "b4f98eab986326b5f87335e909b5abc158623f52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_6ec0d351",
+        "filename": "sound/soc/msm/qdsp6v2/msm-compress-q6-v2.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1092,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2015-08-24T23:08:38Z",
+      "side": 1,
+      "message": "This line requires prtd-\u003esample_rate to be set, that you\u0027re not setting until later.  Looks like it\u0027ll be a division by zero.",
+      "revId": "b4f98eab986326b5f87335e909b5abc158623f52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
