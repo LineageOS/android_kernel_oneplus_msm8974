@@ -22,6 +22,30 @@
       "revId": "2b66a201ba0c22997c301aac4ed3e6df1021d638",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_a3660551",
+        "filename": "arch/arm/configs/cyanogenmod_kerneldebug_config",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 14145
+      },
+      "writtenOn": "2016-01-15T04:54:08Z",
+      "side": 1,
+      "message": "QC also has this one disabled.  We should probably do the same to avoid the log spam we know we\u0027re going to get due to rpm-smd, etc.",
+      "parentUuid": "1fcbff3d_c37551fc",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 25
+      },
+      "revId": "2b66a201ba0c22997c301aac4ed3e6df1021d638",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
