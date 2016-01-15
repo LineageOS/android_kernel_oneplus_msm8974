@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_c37551fc",
+        "filename": "arch/arm/configs/cyanogenmod_kerneldebug_config",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 14145
+      },
+      "writtenOn": "2016-01-15T04:53:18Z",
+      "side": 1,
+      "message": "QC also has this one disabled.  We shou",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 25
+      },
+      "revId": "2b66a201ba0c22997c301aac4ed3e6df1021d638",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
