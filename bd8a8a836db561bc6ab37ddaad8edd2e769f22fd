@@ -16,6 +16,24 @@
       "revId": "bd8a8a836db561bc6ab37ddaad8edd2e769f22fd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_b6f93881",
+        "filename": "drivers/input/touchscreen/synaptics_dsx_i2c.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 4270,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-01-29T02:43:45Z",
+      "side": 1,
+      "message": "Yeah, this driver mixes both :-/",
+      "parentUuid": "1fcbff3d_36b8e8c6",
+      "revId": "bd8a8a836db561bc6ab37ddaad8edd2e769f22fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
