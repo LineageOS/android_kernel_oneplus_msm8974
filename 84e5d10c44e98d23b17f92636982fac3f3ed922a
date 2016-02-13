@@ -16,6 +16,57 @@
       "revId": "84e5d10c44e98d23b17f92636982fac3f3ed922a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_5e5927fc",
+        "filename": "arch/arm/boot/dts/msm8974-oppo/msm8974-oppo-nfc.dtsi",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 13627
+      },
+      "writtenOn": "2016-02-13T08:26:28Z",
+      "side": 0,
+      "message": "These were deadcode. copy-paste mistake probably.",
+      "revId": "84e5d10c44e98d23b17f92636982fac3f3ed922a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_be64e3ba",
+        "filename": "arch/arm/configs/cyanogenmod_bacon_defconfig",
+        "patchSetId": 3
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 13627
+      },
+      "writtenOn": "2016-02-13T08:26:28Z",
+      "side": 0,
+      "message": "Not in use on OPO.",
+      "revId": "84e5d10c44e98d23b17f92636982fac3f3ed922a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_9e5f9fe4",
+        "filename": "arch/arm/mach-msm/clock-8974.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 4944,
+      "author": {
+        "id": 13627
+      },
+      "writtenOn": "2016-02-13T08:26:28Z",
+      "side": 0,
+      "message": "Obviously this is a mistake. OPPO fixed it too.",
+      "revId": "84e5d10c44e98d23b17f92636982fac3f3ed922a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
