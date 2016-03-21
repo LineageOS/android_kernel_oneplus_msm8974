@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_f7027f3e",
+        "filename": "drivers/usb/dwc3/dwc3_otg.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 595,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-03-21T20:02:00Z",
+      "side": 1,
+      "message": "Do you need to do anything about this section as well?",
+      "range": {
+        "startLine": 594,
+        "startChar": 2,
+        "endLine": 595,
+        "endChar": 46
+      },
+      "revId": "f916eb4c02f4ac5b6660e1fe8e9f563a190448ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
