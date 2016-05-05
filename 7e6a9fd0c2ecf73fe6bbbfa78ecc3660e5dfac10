@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_83ede3f0",
+        "filename": "drivers/gpu/msm/kgsl_pwrctrl.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1586,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2016-05-05T10:51:47Z",
+      "side": 1,
+      "message": "Did you pick this commit from somewhere for msm8974? I could only find it on aosp\u0027s repo for msm8992, and on that branch (bullhead) don\u0027t change this line.",
+      "revId": "7e6a9fd0c2ecf73fe6bbbfa78ecc3660e5dfac10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
