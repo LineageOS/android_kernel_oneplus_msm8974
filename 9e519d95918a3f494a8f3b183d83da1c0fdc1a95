@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_abc5295d",
+        "filename": "drivers/video/msm/mdss/mdss_mdp_ctl.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1258,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-05-18T19:37:18Z",
+      "side": 1,
+      "message": "You might as well leave this as ctl-\u003estart_fnc",
+      "range": {
+        "startLine": 1258,
+        "startChar": 5,
+        "endLine": 1258,
+        "endChar": 34
+      },
+      "revId": "9e519d95918a3f494a8f3b183d83da1c0fdc1a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_2b393940",
+        "filename": "drivers/video/msm/mdss/mdss_mdp_intf_writeback.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 534,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-05-18T19:37:18Z",
+      "side": 1,
+      "message": "Why mixer_left here?",
+      "revId": "9e519d95918a3f494a8f3b183d83da1c0fdc1a95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
