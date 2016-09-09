@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_2c1165ad",
+        "filename": "drivers/crypto/msm/qcedev.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10984
+      },
+      "writtenOn": "2016-09-09T15:51:47Z",
+      "side": 1,
+      "message": "typo",
+      "revId": "d70432af139a58a953e306c6138e21d302152e80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
