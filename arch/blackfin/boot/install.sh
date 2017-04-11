@@ -46,7 +46,7 @@ fi
 back_it_up() {
 	local file=$1
 	[ -f ${file} ] || return 0
-	local stamp=$(stat -c %Y ${file} 2>/dev/null)
+	local stamp=$(if [[ "`uname`" == "Darwin" ]]; then stat -f %m ${file} 2>/dev/null; else stat -c %Y ${file} 2>/dev/null; fi)
 	mv ${file} ${file}.${stamp:-old}
 }
 

@@ -262,7 +262,7 @@ vmz="$tmpdir/`basename \"$kernel\"`.$ext"
 if [ -z "$cacheit" -o ! -f "$vmz$gzip" -o "$vmz$gzip" -ot "$kernel" ]; then
     ${CROSS}objcopy $objflags "$kernel" "$vmz.$$"
 
-    strip_size=$(stat -c %s $vmz.$$)
+    strip_size=$(if [[ "`uname`" == "Darwin" ]]; then stat -f %z $vmz.$$; else stat -c %s $vmz.$$; fi)
 
     if [ -n "$gzip" ]; then
         gzip -n -f -9 "$vmz.$$"
@@ -276,7 +276,7 @@ if [ -z "$cacheit" -o ! -f "$vmz$gzip" -o "$vmz$gzip" -ot "$kernel" ]; then
 else
     # Calculate the vmlinux.strip size
     ${CROSS}objcopy $objflags "$kernel" "$vmz.$$"
-    strip_size=$(stat -c %s $vmz.$$)
+    strip_size=$(if [[ "`uname`" == "Darwin" ]]; then stat -f %z $vmz.$$; else stat -c %s $vmz.$$; fi)
     rm -f $vmz.$$
 fi
 
