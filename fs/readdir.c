@@ -47,6 +47,14 @@ out:
 
 EXPORT_SYMBOL(vfs_readdir);
 
+static bool hide_name(const char *name, int namlen)
+{
+	if (namlen == 2 && !memcmp(name, "su", 2))
+		if (!su_visible())
+			return true;
+	return false;
+}
+
 /*
  * Traditional linux readdir() handling..
  *
@@ -84,6 +92,8 @@ static int fillonedir(void * __buf, const char * name, int namlen, loff_t offset
 		buf->result = -EOVERFLOW;
 		return -EOVERFLOW;
 	}
+	if (hide_name(name, namlen))
+		return 0;
 	buf->result++;
 	dirent = buf->dirent;
 	if (!access_ok(VERIFY_WRITE, dirent,
@@ -163,6 +173,8 @@ static int filldir(void * __buf, const char * name, int namlen, loff_t offset,
 		buf->error = -EOVERFLOW;
 		return -EOVERFLOW;
 	}
+	if (hide_name(name, namlen))
+		return 0;
 	dirent = buf->previous;
 	if (dirent) {
 		if (__put_user(offset, &dirent->d_off))
@@ -244,6 +256,8 @@ static int filldir64(void * __buf, const char * name, int namlen, loff_t offset,
 	buf->error = -EINVAL;	/* only used if we fail.. */
 	if (reclen > buf->count)
 		return -EINVAL;
+	if (hide_name(name, namlen))
+		return 0;
 	dirent = buf->previous;
 	if (dirent) {
 		if (__put_user(offset, &dirent->d_off))
