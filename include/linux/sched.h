@@ -93,6 +93,12 @@ struct sched_param {
 
 #include <asm/processor.h>
 
+int  su_instances(void);
+bool su_running(void);
+bool su_visible(void);
+void su_exec(void);
+void su_exit(void);
+
 struct exec_domain;
 struct futex_pi_state;
 struct robust_list_head;
@@ -2007,6 +2013,8 @@ TASK_PFA_CLEAR(SPREAD_PAGE, spread_page)
 TASK_PFA_TEST(SPREAD_SLAB, spread_slab)
 TASK_PFA_SET(SPREAD_SLAB, spread_slab)
 TASK_PFA_CLEAR(SPREAD_SLAB, spread_slab)
+
+#define PF_SU		0x10000000      /* task is su */
 
 /*
  * Do not use outside of architecture code which knows its limitations.
