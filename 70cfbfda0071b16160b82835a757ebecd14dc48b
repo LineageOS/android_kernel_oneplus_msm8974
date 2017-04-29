@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_e53d0dbd",
+        "filename": "include/linux/sched.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 2017,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-04-29T00:57:26Z",
+      "side": 1,
+      "message": "This should go higher around line 1860 together with the other flags. It also conflicts with PF_MEMPOLICY but that can be removed with https://review.lineageos.org/170645",
+      "revId": "70cfbfda0071b16160b82835a757ebecd14dc48b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
