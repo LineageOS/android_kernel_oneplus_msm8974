@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_325b5756",
+        "filename": "include/linux/dcache.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 408,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2017-05-03T15:36:12Z",
+      "side": 1,
+      "message": "I observe NULL dentry being passed here in the case of exec of a shell script from an init script.\n\nThis works fine:\ndentry \u0026\u0026 dentry-\u003ed_name.len \u003d\u003d 2 \u0026\u0026 !memcmp(dentry-\u003ed_name.name, \"su\", 2)",
+      "revId": "f46f3eaa41d5195b265a11ae7239f38eb7839c97",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
