@@ -146,7 +146,7 @@ static struct regulator_ops gdsc_ops = {
 
 static int __devinit gdsc_probe(struct platform_device *pdev)
 {
-	static atomic_t gdsc_count __initdata = ATOMIC_INIT(-1);
+	static atomic_t gdsc_count = ATOMIC_INIT(-1);
 	struct regulator_init_data *init_data;
 	struct resource *res;
 	struct gdsc *sc;
@@ -279,7 +279,7 @@ static struct of_device_id gdsc_match_table[] __initdata = {
 	{}
 };
 
-static struct platform_driver gdsc_driver = {
+static struct platform_driver gdsc_driver __refdata = {
 	.probe		= gdsc_probe,
 	.remove		= __devexit_p(gdsc_remove),
 	.driver		= {

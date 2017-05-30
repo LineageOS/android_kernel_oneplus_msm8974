@@ -388,7 +388,7 @@ static int __devinit krait_vreg_pmic_probe(struct spmi_device *spmi)
 	return 0;
 }
 
-static struct spmi_driver qpnp_revid_driver = {
+static struct spmi_driver qpnp_revid_driver __refdata = {
 	.probe	= krait_vreg_pmic_probe,
 	.driver	= {
 		.name		= KRAIT_REG_PMIC_DEV_NAME,

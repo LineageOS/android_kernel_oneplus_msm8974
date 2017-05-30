@@ -1405,7 +1405,7 @@ static struct of_device_id krait_power_match_table[] __initdata = {
 	{}
 };
 
-static struct platform_driver krait_power_driver = {
+static struct platform_driver krait_power_driver __refdata = {
 	.probe	= krait_power_probe,
 	.remove	= __devexit_p(krait_power_remove),
 	.driver	= {
@@ -1612,7 +1612,7 @@ static int __devexit krait_pdn_remove(struct platform_device *pdev)
 	return 0;
 }
 
-static struct platform_driver krait_pdn_driver = {
+static struct platform_driver krait_pdn_driver __refdata = {
 	.probe	= krait_pdn_probe,
 	.remove	= __devexit_p(krait_pdn_remove),
 	.driver	= {
