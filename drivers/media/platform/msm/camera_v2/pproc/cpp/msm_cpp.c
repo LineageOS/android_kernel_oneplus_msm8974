@@ -969,7 +969,7 @@ static int cpp_open_node(struct v4l2_subdev *sd, struct v4l2_subdev_fh *fh)
 	CPP_DBG("open %d %p\n", i, &fh->vfh);
 	cpp_dev->cpp_open_cnt++;
 /*Added by jianbo.sun@Camera 2013-12-27 start for add quick start*/
-#ifndef CONFIG_MACH_OPPO
+#if 1 // ndef CONFIG_MACH_OPPO
 	if (cpp_dev->cpp_open_cnt == 1) {
 		cpp_init_hardware(cpp_dev);
 		iommu_attach_device(cpp_dev->domain, cpp_dev->iommu_ctx);
@@ -1878,7 +1878,7 @@ long msm_cpp_subdev_ioctl(struct v4l2_subdev *sd,
 		break;
 	}
 /*Added by jianbo.sun@Camera 2013-12-27 start for add quick start*/
-#ifdef CONFIG_MACH_OPPO
+#if 0 //def CONFIG_MACH_OPPO
 	case VIDIOC_MSM_CPP_INIT_HW: {
 		if (cpp_dev->cpp_open_cnt == 1) {
 			rc = cpp_init_hardware(cpp_dev);
