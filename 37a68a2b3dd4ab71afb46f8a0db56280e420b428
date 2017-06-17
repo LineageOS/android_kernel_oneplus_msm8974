@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_c60eaf34",
+        "filename": "drivers/media/platform/msm/camera_v2/pproc/cpp/msm_cpp.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 972,
+      "author": {
+        "id": 8964
+      },
+      "writtenOn": "2017-06-17T20:47:24Z",
+      "side": 1,
+      "message": "#if !defined(CONFIG_MACH_OPPO) \u0026\u0026 defined(CONFIG_OPPO_CAMERA)",
+      "revId": "37a68a2b3dd4ab71afb46f8a0db56280e420b428",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
