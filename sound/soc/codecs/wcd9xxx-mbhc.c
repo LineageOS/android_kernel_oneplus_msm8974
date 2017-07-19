@@ -147,6 +147,11 @@ module_param(impedance_detect_en, int,
 			S_IRUGO | S_IWUSR | S_IWGRP);
 MODULE_PARM_DESC(impedance_detect_en, "enable/disable impedance detect");
 
+static int mbhc_debug_btn;
+module_param(mbhc_debug_btn, int, S_IRUGO);
+static int mbhc_debug_vol;
+module_param(mbhc_debug_vol, int, S_IRUGO);
+
 static bool detect_use_vddio_switch;
 
 struct wcd9xxx_mbhc_detect {
@@ -3485,6 +3490,9 @@ static int wcd9xxx_determine_button(const struct wcd9xxx_mbhc *mbhc,
 			break;
 		}
 	}
+
+	mbhc_debug_btn = btn;
+	mbhc_debug_vol = micmv;
 
 	if (btn == -1)
 		pr_debug("%s: couldn't find button number for mic mv %d\n",
