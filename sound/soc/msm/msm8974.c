@@ -1866,10 +1866,10 @@ void *def_taiko_mbhc_cal(void)
 					       MBHC_BTN_DET_V_BTN_HIGH);
 #ifdef CONFIG_MACH_OPPO
 	btn_low[0] = -70;
-	btn_high[0] = 50;
-	btn_low[1] = 51;
-	btn_high[1] = 61;
-	btn_low[2] = 62;
+	btn_high[0] = 70;
+	btn_low[1] = 71;
+	btn_high[1] = 71;
+	btn_low[2] = 72;
 	btn_high[2] = 104;
 	btn_low[3] = 105;
 	btn_high[3] = 148;
